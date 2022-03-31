@@ -35,13 +35,13 @@ services:
     depends_on:
       - zero-ui
     environment:
-      - PROTOCOL="http"
-      - AUTH_PATH="/auth/login"
-      - EXPOSE_PORT="9999"
-      - CONNECT_HOST="zu-main"
-      - CONNECT_PORT="4000"
-      - USER="admin"
-      - PASSWORD="zero-ui"
+      - PROTOCOL=http
+      - AUTH_PATH=/auth/login
+      - EXPOSE_PORT=9999
+      - CONNECT_HOST=zu-main
+      - CONNECT_PORT=4000
+      - USER=admin
+      - PASSWORD=zero-ui
     
     ...
 
