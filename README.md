@@ -27,6 +27,7 @@ version: "3.7"
 services:
   zt-ui-noauth:
     image: maltegrosse/zero-ui-noauth:1.0.0
+    container_name: zu-ui-noauth
     restart: unless-stopped
     expose:
       - "9999"
