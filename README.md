@@ -54,3 +54,6 @@ services:
 ```
 docker build -t maltegrosse/zero-ui-noauth:latest .
 ```
+
+### Additional Notes
+Please dont abuse this proxy server for malicious js injection
