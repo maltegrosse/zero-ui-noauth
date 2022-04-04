@@ -1,7 +1,9 @@
 # Zero-UI No Auth Proxy
 Simple reverse proxy which injects the token and thus disables auth.
-
 see https://github.com/dec0dOS/zero-ui
+
+Available at https://hub.docker.com/r/maltegrosse/zero-ui-noauth
+
 
 ### Environment variables
 ```
